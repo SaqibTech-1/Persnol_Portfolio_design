@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persnol Portfolio Website design</title>
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/my image.png" type="image/x-icon">
     <link rel="stylesheet" href="css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
     <!-- ============ Style Switcher ============== -->
     <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
     <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
@@ -19,9 +24,30 @@
 </head>
 
 <body>
+
+
+    <!-- <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#" class="logo">MyLogo</a>
+            <button class="navbar-toggle" id="navbarToggle">
+                ☰
+            </button>
+        </div>
+        <ul class="navbar-links" id="navbarLinks">
+            <li><a href="#" >Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav> -->
+
+
+
     <!-- main container start-->
 
     <div class="main-container">
+
+
 
         <!-- aside start -->
 
@@ -33,11 +59,11 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+                <li class="nav-links"><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li class="nav-links"><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li class="nav-links"><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+                <li class="nav-links"><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li class="nav-links"><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
             </ul>
         </div>
         <!-- aside end -->
@@ -319,66 +345,66 @@
             <!--==================== Portfolio section Start ============================================================        -->
 
 
-                <section class="portfolio section active" id="portfolio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2>Portfolio</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="portfolio-heading padd-15">
-                                <h2>My Last Projects :</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- ============= portfolio item start ================ -->
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio 1.jpg" alt="Portfolio 1">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio 2.webp" alt="Portfolio 2">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio 3.jpg" alt="Portfolio 3">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio 4.jpg" alt="Portfolio 4">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio 5.png" alt="Portfolio 5">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio 6.jpg" alt="Portfolio 6">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- ============= portfolio item end ================ -->
+            <section class="portfolio section active" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
                         </div>
                     </div>
-                </section>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Projects :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ============= portfolio item start ================ -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio 1.jpg" alt="Portfolio 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio 2.webp" alt="Portfolio 2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio 3.jpg" alt="Portfolio 3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio 4.jpg" alt="Portfolio 4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio 5.png" alt="Portfolio 5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio 6.jpg" alt="Portfolio 6">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============= portfolio item end ================ -->
+                    </div>
+                </div>
+            </section>
 
 
 
@@ -516,6 +542,38 @@
 
 
     <!-- style switcher end-->
+
+    <script>
+        // script.js
+        document.addEventListener("DOMContentLoaded", () => {
+            const links = document.querySelectorAll(".nav-links a");
+            const sections = document.querySelectorAll("section");
+
+            function updateActiveLink() {
+                let currentSection = "";
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100; // Adjust for navbar height
+                    const sectionHeight = section.offsetHeight;
+
+                    if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                        currentSection = section.getAttribute("id");
+                    }
+                });
+
+                links.forEach(link => {
+                    link.classList.remove("active");
+                    if (link.getAttribute("href") === `#${currentSection}`) {
+                        link.classList.add("active");
+                    }
+                });
+            }
+
+            window.addEventListener("scroll", updateActiveLink);
+        });
+
+
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
         integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
